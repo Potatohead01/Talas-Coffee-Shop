@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talas Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- bootstrap links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts links -->
+  </head>
+  <body>
+    <div class="all-content">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo"
+            ><img src="./images/logo-1.jpeg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              ><i
+                class="fa-solid fa-bars"
+                style="color: white; font-size: 23px"
+              ></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs">Blogs</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar -->
+
+      <!-- home section -->
+      <section id="home">
+        <div class="content">
+          <h3>
+            Mari Menikmati <br />
+            Secangkir Kopi!!
+          </h3>
+          <p>
+            “Hidup dapat diibaratkan seperti secangkir kopi hitam.
+            <br />Dimana rasa manis dan pahit akan bertemu di dalam sebuah
+            kehangatan.”
+          </p>
+          <button id="btn">Shop Now</button>
+        </div>
+      </section>
+
+      <!-- home section -->
+
+      <!-- about section -->
+      <div class="about" id="about">
+        <div class="container">
+          <div class="heading">About <span>Us</span></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img src="./images/about.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h3>What Makes Our Coffee Special?</h3>
+              <p>
+                “Hidup dapat diibaratkan seperti minum kopi suguhan. Terkadang,
+                kita akan mendapatkan rasa pahit, terkadang kita juga
+                mendapatkan rasa manis. Namun, hal itu akan membuat mata kita
+                menjadi terbuka.” <br /><br />“Kamu mungkin lebih menyukai teh
+                yang manis. Namun, aku sudah identik dengan kopi dan segala
+                kepahitannya.” <br /><br />“Secangkir kopi dapat menjadi sebuah
+                inspirasi, bahwa ia tidak pernah berdusta atas nama rasa. Kopi
+                selalu punya cerita, bahwa yang hitam tidak selalu kotor, bahwa
+                rasa pahit juga tidak selalu membawa kesedihan.”
+              </p>
+              <button id="about-btn">Learn More.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about section -->
+
+      <!-- top cards -->
+      <section class="top-cards">
+        <div class="heading2">Top <span>Categories</span></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c2.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/c3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- top cards -->
+
+      <!-- menu -->
+      <section class="menu" id="menu">
+        <div class="container">
+          <div class="heading3">Menu</div>
+        </div>
+        <div class="container" id="container2">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-1.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Signature</h3>
+                  <p>
+                    IDR 20K <strike>IDR 25K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-2.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Afogatto</h3>
+                  <p>
+                    IDR 25K <strike>IDR 40K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-3.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Regal</h3>
+                  <p>
+                    IDR 25K <strike>IDR 35K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-2 py-md-0">
+              <div class="card">
+                <img
+                  src="./images/menu-4.jpeg"
+                  alt=""
+                  width="100%"
+                  height="50%"
+                />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Machiatto</h3>
+                  <p>
+                    IDR 30K <strike> IDR 50K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 50px">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-5.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Espresso</h3>
+                  <p>
+                    IDR 20k <strike>IDR 25K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-6.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Latte ART</h3>
+                  <p>
+                    IDR 30K <strike>IDR 50K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-7.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Coffee Dalgona</h3>
+                  <p>
+                    IDR 20K <strike>IDR 35K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/menu-8.jpeg" alt="" />
+                <div class="card-body">
+                  <div class="star text-center">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Cappuccino</h3>
+                  <p>
+                    IDR 20K <strike>IDR 35K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu -->
+
+      <!-- product -->
+      <section id="product" class="product">
+        <div class="container">
+          <div class="heading4">Products</div>
+        </div>
+        <div class="container" id="container3">
+          <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/arabica coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Arabic Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Cappuccino coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Cappuccino Coffee</h3>
+                  <p>
+                    IDR 250K <strike>IDR 350K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Black Coffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Black Coffee</h3>
+                  <p>
+                    IDR 130K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/Decaf caffee.png" alt="" />
+                <div class="card-body">
+                  <h3>Decaf Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/beens-5.png" alt="" />
+                <div class="card-body">
+                  <h3>Americano Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/beens-10.jpeg" alt="" />
+                <div class="card-body">
+                  <h3>Tazania Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/beens-11.jpeg" alt="" />
+                <div class="card-body">
+                  <h3>Zimbabwe Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/beens-8.jpeg" alt="" />
+                <div class="card-body">
+                  <h3>Guatemala Coffee</h3>
+                  <p>
+                    IDR 120K <strike>IDR 150K</strike>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- product -->
+
+      <!-- our gallary -->
+      <div class="container" id="gallary">
+        <h1>Our <span> Gallery</span></h1>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/space-10.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/space-4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/space-9.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image4.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/space-11.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/image6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our gallary -->
+
+      <!-- contact -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="heading6">Contact <span>Us</span></div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                blanditiis <br />ipsum dolor sit amet consectetur.
+              </p>
+              <img src="./images/qr-scan.png" width="50%" height="50%" />
+              <h1>
+                <button id="contact-btn">
+                  <a href="https://wa.link/dfcfof"> Scan Me</a>
+                </button>
+              </h1>
+            </div>
+            <div class="col-md-5" id="col">
+              <h1>Info</h1>
+              <p><i class="fa-regular fa-envelope"></i> example@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +92000000000000000</p>
+              <p>
+                <i class="fa-solid fa-building-columns"></i> Pekanbaru,
+                Indonesia
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae, culpa
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+
+      <!-- blogs -->
+      <section class="blogs" id="blogs">
+        <h1>Latest <span>Blogs</span></h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b1.png" alt="" />
+                <div class="card-body">
+                  <h3>Admin, Barista</h3>
+                  <h5>Admin / 6 July 2023</h5>
+                  <p>
+                    “Kau mau lihat kejujuran? Lihatlah kopi tanpa gula. Ia tidak
+                    perlu bermanis-manis di mulut. Tanpa ragu, ia menunjukkan
+                    jati diri yang sebenarnya.”
+                  </p>
+                  <button id="blogbtn">Read More.</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b2.png" alt="" />
+                <div class="card-body">
+                  <h3>Ben, "Ben-Filosofi Kopi"</h3>
+                  <h5>Admin / 6 July 2023</h5>
+                  <p>“Kopi yang baik akan selalu menemukan penikmatnya.”</p>
+                  <button id="blogbtn">Read More.</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./images/b3.png" alt="" />
+                <div class="card-body">
+                  <h3>Admin, Barista</h3>
+                  <h5>Ben / 6 July 2023</h5>
+                  <p>
+                    “Cobalah berkaca pada ikhlasnya gula di dalam secangkir
+                    kopi. Ia tetap rela tidak disebut, meskipun sudah berkorban
+                    untuk menghilangkan pahit dari kopi.”
+                  </p>
+                  <button id="blogbtn">Read More.</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blogs -->
+
+      <!-- footer -->
+      <footer id="footer">
+        <div class="footer-logo text-center">
+          <img src="./images/logo-1.jpeg" alt="" />
+        </div>
+        <div class="socail-links text-center">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="credite text-center">
+          Designed By <a href="#"> SA Coding</a>
+        </div>
+        <div class="copyright text-center">
+          &copy; Copyright <strong><span>Talas Coffee Shop</span></strong
+          >. All Rights Reserved
+        </div>
+      </footer>
+      <!-- footer -->
+
+      <a href="#" class="arrow"
+        ><i><img src="./images/up-arrow.png" alt="" width="50px" /></i
+      ></a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
